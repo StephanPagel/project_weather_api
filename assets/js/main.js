@@ -1,7 +1,5 @@
-fetch('api.openweathermap.org/data/2.5/weather?id=524901&appid=261b9b1fdaf8ef2a290cd529e386ccbb')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=berlin&appid=a7994a5462c685f3a891e561f51adae7')
     .then(response => response.json())
     .then(json => {
         console.log(json);
-
-
     })
