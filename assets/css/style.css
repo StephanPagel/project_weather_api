@@ -1,66 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 * {
-    padding: 10px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2018/07/28/19/48/wuppertal-3568823_1280.jpg);
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/08/51/city-1868530_960_720.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     position: relative;
-    border: 2px solid;
     font-family: 'Open Sans', sans-serif;
     color: aliceblue;
     width: 100%;
-    height: 98vh;
-    padding-top: 40px;
+    padding: 10px;
 }
 
-input[type="text"] {
-    padding-right: 100px;
-    background-color: rgb(255, 255, 255);
-    filter: opacity(85%);
-    border-style: none;
+section {
+    width: 350px;
+    margin: 10vh auto;
+    font: 1rem/1.3 "Roboto", sans-serif;
+    position: relative;
+    text-align: left;
+    color: #fff;
 }
 
-input[type="button"] {
-    background-color: grey;
+input {
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #4A4F47;
+    background: transparent;
+    font-size: 1.2rem;
+    color: #4A4F47;
+    outline: none;
+    margin-bottom: 2vh;
+    margin: 1vh auto;
 }
 
-header>div {
-    background-color: gray;
-    position: absolute;
-    top: 50px;
-    left: 90%;
-    width: 55px;
-    height: 60px;
-    border-radius: 50%;
+#search_icon {
+    color: #4A4F47;
+    font-size: 1.2rem;
 }
 
-header>div:hover {
-    background-color: mediumaquamarine;
+
+/* für main background */
+
+.main {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 40px;
 }
 
-/*.pics {
-    padding-left: 100px;
-    filter: opacity(45%);
-}*/
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 h1 {
-    padding-left: 60px;
-    font-size: 6em;
+    font-size: 5em;
+    margin: 1vh;
 }
 
-p {
-    height: 18vh;
+#cloudy {
+    font-size: 0.7rem;
 }
 
-footer {
-    background-color: gray;
-    text-align: center;
-    filter: opacity(85%);
+h2 {
+    font-size: 2.2rem;
 }
